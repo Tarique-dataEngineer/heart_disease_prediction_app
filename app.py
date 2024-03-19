@@ -1,7 +1,6 @@
 import numpy as np
 import pickle
 from flask import Flask, request, render_template
-from sklearn.ensemble import _gb_losses
 
 # Load ML model
 model = pickle.load(open('model.pkl', 'rb')) 
